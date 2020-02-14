@@ -1,0 +1,27 @@
+.center{
+    height: 200px;
+  position: relative;
+}
+.center-elements{
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  font-family: monospace;
+}
+.title-text{
+    font-size: 25px;
+}
+.artist-text{
+    font-size:20px;
+}
+.track-details-button-style{
+  background-color: #555555; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
