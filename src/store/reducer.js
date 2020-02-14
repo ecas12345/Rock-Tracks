@@ -15,7 +15,6 @@ const reducer = (state = initialState, action) => {
         }
         case 'SET_TRACK':
         {
-            console.log(state.rockTracks)
             return{
                 ...state,
                 selectedRockTrack: state.rockTracks[action.rockTrackIndex]
