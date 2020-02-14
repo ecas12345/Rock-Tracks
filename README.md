@@ -2,11 +2,16 @@
 
 <h4 align="center">A feed of rock tracks to preview or buy!</h4>
 
-## Basic overview
+## Documentation
 
-A front-end project written in React while leveraging Redux for state management, Fetch-JSONP for consuming itunes API, and React-Router-Dom to route between pages. 
+A front-end project written in React while leveraging Redux for state management, Fetch-JSONP for consuming itunes API, and React-Router-Dom to react routing. 
 <hr></hr>
 
+## Future Enhancements
+
+Future enhancements will entail sorting music by genre. This could be handled by creating script tags dynamically and even inserting genre variables to determine which genre of music to display. I would like to maintain a single callback function to keep code highly maintainable. Scalability can include creating dynamic components that render information similar regardless of the size of the payload.  Another thing I would like to introduce down the line is React Hooks. By using hooks we could trim down the code as state management becomes a little bit easier. The code becomes more readable along with scalable. Logic becomes easier to reuse through applications as well. 
+
+## Description
 Are you looking to dive deep into some cool new rock tracks? Maybe even discover some hot new rock jams to jam out at work, in the car, or even in the gym? Then boy do I have the application for you. With this one stop shop application you can choose from 50 of the hottest rock tracks out! As well as dive into the details of the track and take you to the itunes store to preview the song, or even the entire album the track is featured on! 
 
 ![Rock Tracks Screenshot](/src/assets/images/RockTracks.png)
