@@ -9,12 +9,6 @@ import fetchJsonp from 'fetch-jsonp';
 import './Homepage.css';
 
 class Homepage extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            rockTracks: []
-        }
-    }
     componentDidMount = () => {
             fetchJsonp('https://itunes.apple.com/search?term=rock&media=music')
             .then(response =>  {
